@@ -16,11 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-<<<<<<< HEAD
-///////22222
-=======
-///////11111111
->>>>>>> 5d5a9aab29a6487d6106e11d0f057873e33e45c1
+///////2222233
 
 public class KafkaController {
 	private static final Logger logger = LoggerFactory.getLogger(KafkaController.class);
