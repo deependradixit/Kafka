@@ -16,12 +16,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
-///////
+
 
 public class KafkaController {
 	private static final Logger logger = LoggerFactory.getLogger(KafkaController.class);
 	
-	  
+	// hello testing
 	private String topicName="kafkaTopic"; 
 	
 
@@ -37,7 +37,7 @@ public class KafkaController {
 
 		@Override
 		public void run() {
-		    //access kafka brokers testing in kafka
+		    //access kafka brokers
 			 Properties props = new Properties();
 		     props.put("bootstrap.servers", "localhost:9092");
 		     props.put("group.id", "test");
