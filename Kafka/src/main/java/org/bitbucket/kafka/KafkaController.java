@@ -37,7 +37,7 @@ public class KafkaController {
 
 		@Override
 		public void run() {
-		    //access kafka brokers
+		    //access kafka brokers testing in kafka
 			 Properties props = new Properties();
 		     props.put("bootstrap.servers", "localhost:9092");
 		     props.put("group.id", "test");
