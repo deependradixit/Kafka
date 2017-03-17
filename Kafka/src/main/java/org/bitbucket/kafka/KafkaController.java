@@ -23,7 +23,7 @@ public class KafkaController {
 	
 	// hello testing in kafka
 	
-	//private String topicName="kafkaTopic"; 
+	
 	
 	private String topicName="kafkaTopic"; 
 	
