@@ -23,7 +23,7 @@ public class KafkaController {
 	
 
 
-	// hello testing in kafka to get 
+	
 
 	// hello testing in kafka to get topik
 
