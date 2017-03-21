@@ -22,7 +22,7 @@ public class KafkaController {
 	private static final Logger logger = LoggerFactory.getLogger(KafkaController.class);
 	
 	// hello testing in kafka555555
-	//read topic name
+	//line 1
 	
 	
 	
@@ -130,7 +130,7 @@ public class KafkaController {
 		}
 
 	}
-
+   ////line2
 	public static void main(String[] args) throws Exception {
 		KafkaController hb = new KafkaController();
 		 hb.createProducer().run();
