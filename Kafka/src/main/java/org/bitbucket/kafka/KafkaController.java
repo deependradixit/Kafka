@@ -22,7 +22,7 @@ public class KafkaController {
 	private static final Logger logger = LoggerFactory.getLogger(KafkaController.class);
 	
 
-	// hello testing in kafka
+	// hello testing in kafka to get name
 
 	
 
