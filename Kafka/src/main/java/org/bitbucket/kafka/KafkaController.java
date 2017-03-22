@@ -71,6 +71,7 @@ public class KafkaController {
 			 * address. This one is available through the services in this
 			 * project - ie "docker-compose up zookeeper kafka" ** You'll have
 			 * to put that into /etc/hosts if running this code from CLI.
+			 * and added some new code
 			 */
 			Properties kprops = new Properties();
 
