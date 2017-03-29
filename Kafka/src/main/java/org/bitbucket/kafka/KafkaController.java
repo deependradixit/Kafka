@@ -20,7 +20,7 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 public class KafkaController {
 	private static final Logger logger = LoggerFactory.getLogger(KafkaController.class);
-//test cases11113333	
+//test cases666	
 	private String topicName="kafkaTopic"; 
 	//new test cases111
   
@@ -126,7 +126,8 @@ public class KafkaController {
 		}
 
 	}
-//line2222888	public static void main(String[] args) throws Exception {
+//line2222888	
+       public static void main(String[] args) throws Exception {
 		KafkaController hb = new KafkaController();
 		 hb.createProducer().run();
 		 hb.createConsumer().run();
