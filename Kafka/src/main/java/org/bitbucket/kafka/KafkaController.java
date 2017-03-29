@@ -24,7 +24,7 @@ public class KafkaController {
 
 	
 	private String topicName="kafkaTopic"; 
-	
+	//new test cases
   
 	public Runnable createProducer() {
 		return this.new Producer();
