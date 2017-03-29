@@ -22,13 +22,10 @@ public class KafkaController {
 	private static final Logger logger = LoggerFactory.getLogger(KafkaController.class);
 	
 
-
-	//line1
-	
 	
 	private String topicName="kafkaTopic"; 
 	
-   //line35
+  
 	public Runnable createProducer() {
 		return this.new Producer();
 	}
