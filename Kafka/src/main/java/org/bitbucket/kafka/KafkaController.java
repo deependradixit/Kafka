@@ -20,8 +20,7 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 public class KafkaController {
 	private static final Logger logger = LoggerFactory.getLogger(KafkaController.class);
-	//test cases222555
-
+//test cases222444555
 	
 	private String topicName="kafkaTopic"; 
 	//new test cases111
