@@ -20,11 +20,14 @@ import com.google.common.util.concurrent.ThreadFactoryBuilder;
 
 public class KafkaController {
 	private static final Logger logger = LoggerFactory.getLogger(KafkaController.class);
+
 	
 ///main branch code
 	
 	private String topicName="kafkaTopic"; 
 	
+
+
   
 	public Runnable createProducer() {
 		return this.new Producer();
@@ -68,6 +71,7 @@ public class KafkaController {
 			 * address. This one is available through the services in this
 			 * project - ie "docker-compose up zookeeper kafka" ** You'll have
 			 * to put that into /etc/hosts if running this code from CLI.
+			 * and added some new code
 			 */
 			Properties kprops = new Properties();
 
@@ -127,8 +131,8 @@ public class KafkaController {
 		}
 
 	}
-   //line2
-	public static void main(String[] args) throws Exception {
+//line2222888	
+       public static void main(String[] args) throws Exception {
 		KafkaController hb = new KafkaController();
 		 hb.createProducer().run();
 		 hb.createConsumer().run();
